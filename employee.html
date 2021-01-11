@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ASMA</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-casual.min.css" rel="stylesheet">
+  <link href="css/employee.css" rel="stylesheet">
+ 
+
+</head>
+
+<body>
+
+  
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="ASMA/index.html">Home</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="ASMA/about.html">About</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="http://localhost/ASMA/ASMA/services.php">Services</a>
+          </li>
+		   <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="ASMA/gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item px-lg-4 dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            PROFILE
+          </a>
+            <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+            <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="login Employee.html">Login as Employee</a>
+              <a class="dropdown-item" href="login Admin.html">Login as Admin</a>
+              <a class="dropdown-item" href="login Customer.html">Login as Customer</a>
+              <a class="dropdown-item" href="ASMA/register.html">Register</a>
+             
+            </div>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-xl-9 mx-auto">
+        <div class="card card-signin flex-row my-5">
+          <div class="card-img-left d-none d-md-flex">
+             <!-- Background image for card set in CSS! -->
+          </div>
+          <div class="card-body">
+            <h3 class="card-title text-center">Register</h3>
+            <form class="form-signin"  method="post" action="php/Employee_register.php">
+              <div class="form-label-group">
+                <input type="text" id="inputUsername" name="name"class="form-control" placeholder="Username" required autofocus>
+                <label for="inputUserame">Full Name</label>
+              </div>
+
+			  
+             
+              
+
+
+
+			  <div class="form-label-group">
+                <input type="text" id="inputContactNo" name="contactno" class="form-control" placeholder="Contact No" required>
+                <label for="inputContactNo">Contact No</label>
+              </div>
+
+              
+              
+              <div class="form-label-group">
+                <input type="text" id="inputAddress"  name="caddress" class="form-control" placeholder="Address" required>
+                <label for="inputAddress">Current Address</label>
+              </div>
+			  
+			  
+              <div class="form-label-group">
+                <input type="text" id="inputAllergies"  name="paddress" class="form-control" placeholder="Allergies" required>
+                <label for="inputAllergies">Permanent Address</label>
+              </div>
+			  
+			  <div class="form-label-group">
+                <input type="text" id="inputSkinType" name="hdate" class="form-control" placeholder="Skin Type" required>
+                <label for="inputSkinType">Hire Date</label>
+              </div>
+			  
+			  <div class="form-label-group">
+                <input type="text" id="inputHairType"  name="skills" class="form-control" placeholder="Hair Type" required>
+                <label for="inputHairType">Skills</label>
+              </div>
+			  
+              
+              <hr>
+
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+                <label for="inputPassword">Password</label>
+              </div>
+
+          
+
+              <div class="form-label-group">
+                <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
+                <label for="inputConfirmPassword">Confirm password</label>
+              </div>
+
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit"   name= "submit">Register</button>
+              <a class="d-block text-center mt-2 small" href="login Employee.html">Sign In</a>
+              <hr class="my-4">
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+
+
+
+
+ 
+  <footer class="footer text-faded text-center py-5">
+    <div class="container">
+      <p class="m-0 small">Copyright &copy; Your Website 2019</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

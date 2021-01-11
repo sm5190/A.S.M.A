@@ -1,0 +1,25 @@
+p{
+	color: #e6a756;
+}
+
+h1{
+	color: #e6a756;
+}
+h2{
+	color: #e6a756;
+}
+
+
+
+
+
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
