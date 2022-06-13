@@ -10,4 +10,4 @@ storage
 |----------|:-------------:|
 | HTML,CSS,JAVA-SCRIPT,PHP| Oracle,PHP 7|
 ## Design & Development
-[See Report] (https://github.com/sm5190/A.S.M.A/blob/main/Report.pdf)
+[See Report](https://github.com/sm5190/A.S.M.A/blob/main/Report.pdf)
